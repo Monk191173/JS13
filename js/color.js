@@ -6,7 +6,6 @@ let randColor = () => {
     let r = Math.round(Math.random() * 255);
     let g = Math.round(Math.random() * 255);
     let b = Math.round(Math.random() * 255);
-    console.log("'rgb(" + r + "," + g + "," + b + ")'");
     return "rgb(" + r + "," + g + "," + b + ")";
 }
 
@@ -39,6 +38,6 @@ image.addEventListener('click', () => {
         minBox.style.backgroundRepeat = 'no-repeat';
         minBox.style.backgroundPosition = 'center';
         minBox.style.backgroundSize = 'cover';
-        minBox.style.backgroundImage = 'url("../img/img' + minBox.id + '.avif")';
+        minBox.style.backgroundImage = 'url("img/img' + minBox.id + '.avif")';
     }
 });
