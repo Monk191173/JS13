@@ -38,6 +38,6 @@ image.addEventListener('click', () => {
         minBox.style.backgroundRepeat = 'no-repeat';
         minBox.style.backgroundPosition = 'center';
         minBox.style.backgroundSize = 'cover';
-        minBox.style.backgroundImage = 'url("./img/img' + minBox.id + '.avif")';
+        minBox.style.backgroundImage = 'url("img/img' + minBox.id + '.avif")';
     }
 });
