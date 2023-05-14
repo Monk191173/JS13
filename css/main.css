@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(241, 239, 239);
+}
+.main_menu{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.main_menu a{
+    text-decoration: none;
+    margin: 5px;
+}
+.main_menu a:hover{
+    background-color: aqua;
+}
+/*-----------------------------------------------color*/
+.main_block {
+    width: 97vw;
+    height: 96vh;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+.main_color{
+    
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    
+}
+.box_color{
+    width: 32%;
+    height: auto;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.selcolor,.selimage{
+cursor: pointer;
+}
+/*-----------------------------------------------keyb*/
+.keyboard {
+    width: 97vw;
+    height: 97vh;
+    margin: 0 auto;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.keyboard__row,
+.keyboard__row1,
+.keyboard__row2,
+.keyboard__row3,
+.keyboard__row4,
+.keyboard__row5 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#area {
+    width: 727px;
+    height: 150px;
+    text-align: start;
+    border: none;
+    background-color: white;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    scroll-behavior: smooth;
+    /* overscroll-behavior-y:auto; */
+
+}
+
+.keyboard__row_key {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 45px;
+    user-select: none;
+}
+
+.Backspace,
+.Tab {
+    width: 68px;
+
+}
+
+.CapsLock,
+.Enter {
+    width: 82px;
+}
+
+.ShiftLeft,
+.ShiftRight {
+    width: 107.5px;
+}
+
+.Space {
+    width: 731px;
+}
